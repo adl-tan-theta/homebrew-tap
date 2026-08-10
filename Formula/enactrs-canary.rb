@@ -1,5 +1,5 @@
 class EnactrsCanary < Formula
-  desc "Enactrs multi-provider AI agent CLI (integration canary)"
+  desc "Enactrs multi-provider AI agent CLI"
   homepage "https://dev.azure.com/amsterdamdatalabs/Enact/_git/enact-agent-rs"
   version "0.0.3-canary.3353"
   license "Apache-2.0"
@@ -27,6 +27,6 @@ class EnactrsCanary < Formula
   end
 
   test do
-    assert_match(/0\.0\.3/, shell_output("#{bin}/enact --version"))
+    assert_match(/0\\.0\\./, shell_output("#{bin}/enact --version"))
   end
 end
