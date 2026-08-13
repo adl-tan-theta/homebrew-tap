@@ -1,24 +1,24 @@
 class EnactrsCanary < Formula
   desc "Enactrs multi-provider AI agent CLI"
   homepage "https://dev.azure.com/amsterdamdatalabs/Enact/_git/enact-agent-rs"
-  version "0.0.3-canary.3355"
+  version "0.0.4-canary.3402"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/adl-tan-theta/enact-releases/releases/download/v0.0.3-canary.3355/enactrs-0.0.3-canary.3355-darwin-arm64.tar.gz"
-      sha256 "e6ee0109afa18f227066eb910718374305acd1f5b107bdbde8ce449f35b1fcd6"
+      url "https://github.com/adl-tan-theta/enact-releases/releases/download/v0.0.4-canary.3402/enactrs-0.0.4-canary.3402-darwin-arm64.tar.gz"
+      sha256 "fe08f3380c75f16748f0319a4358f41523cc0f05de67aa85898e16badd332d8e"
     end
     on_intel do
-      url "https://github.com/adl-tan-theta/enact-releases/releases/download/v0.0.3-canary.3355/enactrs-0.0.3-canary.3355-darwin-x64.tar.gz"
-      sha256 "2cda7983e9de21377f8ddc83c9114577dd552df4314eae7794979728b9cd36c4"
+      url "https://github.com/adl-tan-theta/enact-releases/releases/download/v0.0.4-canary.3402/enactrs-0.0.4-canary.3402-darwin-x64.tar.gz"
+      sha256 "fab9eded3bc5e338d5242de4b8c815036f7db00481c81c5063fba0fa5d99a13a"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/adl-tan-theta/enact-releases/releases/download/v0.0.3-canary.3355/enactrs-0.0.3-canary.3355-linux-x64.tar.gz"
-      sha256 "6fa1b1eef9ed584383de7fa9aa655c0bcf9538bd15a79ac6d81ba0fc692d79c3"
+      url "https://github.com/adl-tan-theta/enact-releases/releases/download/v0.0.4-canary.3402/enactrs-0.0.4-canary.3402-linux-x64.tar.gz"
+      sha256 "fb172680642d6a162bc388bb9daba012b6af9c6669cfecaf356f878036a6107a"
     end
   end
 
